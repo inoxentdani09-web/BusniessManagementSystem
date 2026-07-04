@@ -58,19 +58,22 @@
             // dgvSearchProduct
             // 
             dgvSearchProduct.AllowUserToAddRows = false;
-            dgvSearchProduct.BackgroundColor = Color.White;
+            dgvSearchProduct.BackgroundColor = SystemColors.Control;
             dgvSearchProduct.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dgvSearchProduct.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Sunken;
             dgvSearchProduct.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvSearchProduct.Columns.AddRange(new DataGridViewColumn[] { EditColumn, DeleteColumn, ViewColumn });
             dgvSearchProduct.Dock = DockStyle.Bottom;
-            dgvSearchProduct.GridColor = Color.White;
+            dgvSearchProduct.GridColor = SystemColors.Control;
             dgvSearchProduct.Location = new Point(0, 0);
             dgvSearchProduct.Name = "dgvSearchProduct";
+            dgvSearchProduct.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dgvSearchProduct.RowHeadersVisible = false;
             dgvSearchProduct.RowHeadersWidth = 62;
             dgvSearchProduct.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvSearchProduct.Size = new Size(1311, 348);
             dgvSearchProduct.TabIndex = 0;
+            dgvSearchProduct.CellContentClick += dgvSearchProduct_CellContentClick;
             // 
             // EditColumn
             // 
@@ -114,9 +117,9 @@
             gbSearchProduct.Controls.Add(lblProductName);
             gbSearchProduct.FlatStyle = FlatStyle.Flat;
             gbSearchProduct.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            gbSearchProduct.Location = new Point(0, 0);
+            gbSearchProduct.Location = new Point(0, 30);
             gbSearchProduct.Name = "gbSearchProduct";
-            gbSearchProduct.Size = new Size(1309, 399);
+            gbSearchProduct.Size = new Size(1309, 369);
             gbSearchProduct.TabIndex = 1;
             gbSearchProduct.TabStop = false;
             // 
@@ -198,6 +201,8 @@
             ShowIcon = false;
             Text = "SearchProduct";
             WindowState = FormWindowState.Maximized;
+            Activated += SearchProduct_Activated;
+            Load += SearchProduct_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvSearchProduct).EndInit();
             gbSearchProduct.ResumeLayout(false);

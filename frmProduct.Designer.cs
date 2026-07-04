@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             gbProduct = new GroupBox();
-            button2 = new Button();
-            button1 = new Button();
+            btnSave = new Button();
+            btnCancel = new Button();
             label1 = new Label();
             chkDiscontinued = new CheckBox();
             cmbSupplier = new ComboBox();
@@ -57,8 +57,8 @@
             // 
             gbProduct.Anchor = AnchorStyles.None;
             gbProduct.BackColor = Color.White;
-            gbProduct.Controls.Add(button2);
-            gbProduct.Controls.Add(button1);
+            gbProduct.Controls.Add(btnSave);
+            gbProduct.Controls.Add(btnCancel);
             gbProduct.Controls.Add(label1);
             gbProduct.Controls.Add(chkDiscontinued);
             gbProduct.Controls.Add(cmbSupplier);
@@ -79,41 +79,43 @@
             gbProduct.Controls.Add(lblSupplier);
             gbProduct.Controls.Add(lblProductName);
             gbProduct.FlatStyle = FlatStyle.Flat;
-            gbProduct.Location = new Point(-8, 1);
+            gbProduct.Location = new Point(-8, 0);
             gbProduct.Name = "gbProduct";
-            gbProduct.Size = new Size(1310, 833);
+            gbProduct.Size = new Size(1310, 834);
             gbProduct.TabIndex = 0;
             gbProduct.TabStop = false;
             // 
-            // button2
+            // btnSave
             // 
-            button2.BackColor = Color.RoyalBlue;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.ForeColor = Color.White;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(610, 649);
-            button2.Name = "button2";
-            button2.Size = new Size(200, 43);
-            button2.TabIndex = 20;
-            button2.Text = "Sa&ve Product";
-            button2.UseVisualStyleBackColor = false;
+            btnSave.BackColor = Color.RoyalBlue;
+            btnSave.Cursor = Cursors.Hand;
+            btnSave.FlatStyle = FlatStyle.Flat;
+            btnSave.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSave.ForeColor = Color.White;
+            btnSave.ImageAlign = ContentAlignment.MiddleLeft;
+            btnSave.Location = new Point(610, 649);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new Size(200, 43);
+            btnSave.TabIndex = 20;
+            btnSave.Text = "Sa&ve Product";
+            btnSave.UseVisualStyleBackColor = false;
+            btnSave.Click += btnSave_Click;
             // 
-            // button1
+            // btnCancel
             // 
-            button1.Cursor = Cursors.Hand;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.RoyalBlue;
-            button1.Image = Properties.Resources.icons8_close_32;
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(501, 649);
-            button1.Name = "button1";
-            button1.Size = new Size(103, 43);
-            button1.TabIndex = 19;
-            button1.Text = "     Ca&ncel";
-            button1.UseVisualStyleBackColor = true;
+            btnCancel.Cursor = Cursors.Hand;
+            btnCancel.FlatStyle = FlatStyle.Flat;
+            btnCancel.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCancel.ForeColor = Color.RoyalBlue;
+            btnCancel.Image = Properties.Resources.icons8_close_32;
+            btnCancel.ImageAlign = ContentAlignment.MiddleLeft;
+            btnCancel.Location = new Point(501, 649);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(103, 43);
+            btnCancel.TabIndex = 19;
+            btnCancel.Text = "     Ca&ncel";
+            btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // label1
             // 
@@ -311,6 +313,7 @@
             ShowIcon = false;
             Text = "frmProduct";
             WindowState = FormWindowState.Maximized;
+            Load += frmProduct_Load;
             gbProduct.ResumeLayout(false);
             gbProduct.PerformLayout();
             ResumeLayout(false);
@@ -338,7 +341,7 @@
         private TextBox txtUnitsOnOrder;
         private TextBox txtRecoderLevel;
         private Label label1;
-        private Button button2;
-        private Button button1;
+        private Button btnSave;
+        private Button btnCancel;
     }
 }
