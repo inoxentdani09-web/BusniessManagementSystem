@@ -12,10 +12,7 @@ namespace BusniessManagementSystem
         {
 
             InitializeComponent();
-
-
         }
-
         private void ViewEmployee_Load(object sender, EventArgs e)
         {
             EmployeeRepository repo = new EmployeeRepository();

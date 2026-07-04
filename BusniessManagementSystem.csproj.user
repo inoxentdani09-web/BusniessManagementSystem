@@ -4,6 +4,9 @@
     <Compile Update="frmCustomers.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -16,10 +19,16 @@
     <Compile Update="SearchEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SearchProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ViewCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ViewEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewProduct.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

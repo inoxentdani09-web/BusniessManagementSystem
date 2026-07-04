@@ -3,104 +3,56 @@
   "WorkspaceRootPath": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\viewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:viewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\viewemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:viewemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\frmemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:frmemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\frmemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:frmemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\frmemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:frmemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\searchcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:searchcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\searchcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:searchcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\searchemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:searchemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\searchemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:searchemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:frmcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\viewcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:viewcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\viewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:viewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\searchemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:searchemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\viewcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:viewcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\frmcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:frmcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:frmcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\searchcustomer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:searchcustomer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\searchproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:searchproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\repositories\\reportscomborepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:repositories\\reportscomborepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\viewproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:viewproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\frmcustomers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:frmcustomers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,21 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ViewEmployee.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewEmployee.cs",
-              "RelativeDocumentMoniker": "ViewEmployee.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewEmployee.cs*",
-              "RelativeToolTip": "ViewEmployee.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T19:56:58.979Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -139,66 +78,100 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmEmployee.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmEmployee.cs",
-              "RelativeDocumentMoniker": "frmEmployee.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmEmployee.cs",
-              "RelativeToolTip": "frmEmployee.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAIAwwAcBAAAjAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SearchEmployee.cs [Design]",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchEmployee.cs",
+              "RelativeDocumentMoniker": "SearchEmployee.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchEmployee.cs [Design]*",
+              "RelativeToolTip": "SearchEmployee.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-28T18:12:41.262Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmEmployee.Designer.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmEmployee.Designer.cs",
-              "RelativeDocumentMoniker": "frmEmployee.Designer.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmEmployee.Designer.cs",
-              "RelativeToolTip": "frmEmployee.Designer.cs",
-              "ViewState": "AgIAAK0BAAAAAAAAAAAYwBYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-28T17:56:41.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewEmployee.Designer.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewEmployee.Designer.cs",
-              "RelativeDocumentMoniker": "ViewEmployee.Designer.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewEmployee.Designer.cs*",
-              "RelativeToolTip": "ViewEmployee.Designer.cs*",
-              "ViewState": "AgIAAAsCAAAAAAAAAAAewBoCAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T10:23:32.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-03T23:58:01.753Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Models\\Employee.cs*",
-              "RelativeToolTip": "Models\\Employee.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAlwA4AAAAYAAAAAAAAAA==",
+              "Title": "frmCustomers.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCustomers.cs",
+              "RelativeDocumentMoniker": "frmCustomers.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCustomers.cs",
+              "RelativeToolTip": "frmCustomers.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAD4v5EAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T11:46:28.149Z",
+              "WhenOpened": "2026-07-03T23:46:53.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "SearchCustomer.cs [Design]",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchCustomer.cs",
-              "RelativeDocumentMoniker": "SearchCustomer.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchCustomer.cs [Design]",
-              "RelativeToolTip": "SearchCustomer.cs [Design]",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T09:53:20.479Z",
+              "WhenOpened": "2026-07-01T12:00:52.643Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmCustomers.cs [Design]",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCustomers.cs",
+              "RelativeDocumentMoniker": "frmCustomers.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCustomers.cs [Design]",
+              "RelativeToolTip": "frmCustomers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T10:10:33.832Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmProduct.cs [Design]",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmProduct.cs",
+              "RelativeDocumentMoniker": "frmProduct.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmProduct.cs [Design]",
+              "RelativeToolTip": "frmProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T22:13:55.487Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAqwGkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:00:51.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchProduct.cs [Design]",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchProduct.cs",
+              "RelativeDocumentMoniker": "SearchProduct.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchProduct.cs [Design]",
+              "RelativeToolTip": "SearchProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T23:11:02.323Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewProduct.cs [Design]",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewProduct.cs",
+              "RelativeDocumentMoniker": "ViewProduct.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewProduct.cs [Design]",
+              "RelativeToolTip": "ViewProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T23:11:30.343Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -209,228 +182,62 @@
               "RelativeDocumentMoniker": "Repositories\\EmployeeRepository.cs",
               "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\EmployeeRepository.cs",
               "RelativeToolTip": "Repositories\\EmployeeRepository.cs",
-              "ViewState": "AgIAAPgAAAAAAAAAAAAlwAgBAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T15:10:34.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmEmployee.cs [Design]",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmEmployee.cs",
-              "RelativeDocumentMoniker": "frmEmployee.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmEmployee.cs [Design]",
-              "RelativeToolTip": "frmEmployee.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T20:36:22.229Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CustomerRepository.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAALEAAAAAAAAAAAAlwMYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T17:41:33.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SearchCustomer.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchCustomer.cs",
-              "RelativeDocumentMoniker": "SearchCustomer.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchCustomer.cs",
-              "RelativeToolTip": "SearchCustomer.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAewGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T09:09:23.968Z",
+              "WhenOpened": "2026-07-03T23:05:01.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "SearchEmployee.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchEmployee.cs",
-              "RelativeDocumentMoniker": "SearchEmployee.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchEmployee.cs",
-              "RelativeToolTip": "SearchEmployee.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CustomerRepository.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T23:54:27.144Z",
+              "WhenOpened": "2026-07-03T23:05:14.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T23:01:32.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmProduct.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmProduct.cs",
+              "RelativeDocumentMoniker": "frmProduct.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmProduct.cs",
+              "RelativeToolTip": "frmProduct.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAewBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T22:50:38.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "SearchEmployee.cs [Design]",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchEmployee.cs",
-              "RelativeDocumentMoniker": "SearchEmployee.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchEmployee.cs [Design]",
-              "RelativeToolTip": "SearchEmployee.cs [Design]",
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA+wBYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-28T18:02:34.46Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAqwCAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T12:00:51.059Z",
+              "WhenOpened": "2026-07-03T22:08:38.404Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "frmCustomers.cs [Design]",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCustomers.cs",
-              "RelativeDocumentMoniker": "frmCustomers.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCustomers.cs [Design]",
-              "RelativeToolTip": "frmCustomers.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T10:10:33.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ViewEmployee.cs [Design]",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewEmployee.cs",
-              "RelativeDocumentMoniker": "ViewEmployee.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewEmployee.cs [Design]*",
-              "RelativeToolTip": "ViewEmployee.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T20:18:10.763Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ViewCustomer.cs [Design]",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewCustomer.cs",
-              "RelativeDocumentMoniker": "ViewCustomer.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewCustomer.cs [Design]",
-              "RelativeToolTip": "ViewCustomer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T22:30:35.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SearchEmployee.Designer.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchEmployee.Designer.cs",
-              "RelativeDocumentMoniker": "SearchEmployee.Designer.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchEmployee.Designer.cs",
-              "RelativeToolTip": "SearchEmployee.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-28T17:56:29.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ViewCustomer.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewCustomer.cs",
-              "RelativeDocumentMoniker": "ViewCustomer.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\ViewCustomer.cs",
-              "RelativeToolTip": "ViewCustomer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T20:06:28.739Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "frmCustomers.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCustomers.cs",
-              "RelativeDocumentMoniker": "frmCustomers.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCustomers.cs",
-              "RelativeToolTip": "frmCustomers.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAuwMwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T09:04:47.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "MainForm.Designer.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\MainForm.Designer.cs",
-              "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAWwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T12:22:18.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SearchCustomer.Designer.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchCustomer.Designer.cs",
-              "RelativeDocumentMoniker": "SearchCustomer.Designer.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\SearchCustomer.Designer.cs",
-              "RelativeToolTip": "SearchCustomer.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAYwBYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T16:06:40.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\MainForm.cs [Design]",
-              "RelativeToolTip": "MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T12:00:52.643Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ReportsComboRepository.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\ReportsComboRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ReportsComboRepository.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\ReportsComboRepository.cs",
-              "RelativeToolTip": "Repositories\\ReportsComboRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T11:00:04.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Properties\\Resources.resx",
-              "RelativeToolTip": "Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-06-28T18:09:22.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "frmCustomers.Designer.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCustomers.Designer.cs",
-              "RelativeDocumentMoniker": "frmCustomers.Designer.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCustomers.Designer.cs",
-              "RelativeToolTip": "frmCustomers.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAwwBYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-28T18:11:19.473Z"
             }
           ]
         }

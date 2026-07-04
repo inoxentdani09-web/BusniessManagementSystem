@@ -108,14 +108,16 @@
             // addNewProductToolStripMenuItem
             // 
             addNewProductToolStripMenuItem.Name = "addNewProductToolStripMenuItem";
-            addNewProductToolStripMenuItem.Size = new Size(255, 34);
+            addNewProductToolStripMenuItem.Size = new Size(270, 34);
             addNewProductToolStripMenuItem.Text = "Add New Product";
+            addNewProductToolStripMenuItem.Click += addNewProductToolStripMenuItem_Click;
             // 
             // searchProductToolStripMenuItem
             // 
             searchProductToolStripMenuItem.Name = "searchProductToolStripMenuItem";
-            searchProductToolStripMenuItem.Size = new Size(255, 34);
+            searchProductToolStripMenuItem.Size = new Size(270, 34);
             searchProductToolStripMenuItem.Text = "Search Product";
+            searchProductToolStripMenuItem.Click += searchProductToolStripMenuItem_Click;
             // 
             // categoriesToolStripMenuItem
             // 

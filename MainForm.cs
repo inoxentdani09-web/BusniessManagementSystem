@@ -16,6 +16,8 @@ namespace BusniessManagementSystem
         ViewEmployee Vemp;
         frmCustomers frmCustomer;
         SearchCustomer SearchCus;
+        frmProduct product;
+        SearchProduct SearchPro;
         public MainForm()
         {
             InitializeComponent();
@@ -73,6 +75,34 @@ namespace BusniessManagementSystem
             else
             {
                 SearchCus.Activate();
+            }
+        }
+
+        private void addNewProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (product == null || product.IsDisposed)
+            {
+                product = new frmProduct();
+                product.MdiParent = this;
+                product.Show();
+            }
+            else
+            {
+                product.Activate();
+            }
+        }
+
+        private void searchProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (SearchPro == null || SearchPro.IsDisposed)
+            {
+                SearchPro = new SearchProduct();
+                SearchPro.MdiParent = this;
+                SearchPro.Show();
+            }
+            else
+            {
+                SearchPro.Activate();
             }
         }
     }

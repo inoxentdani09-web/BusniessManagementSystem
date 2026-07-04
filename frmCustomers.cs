@@ -14,20 +14,20 @@ namespace BusniessManagementSystem
             InitializeComponent();
         }
 
-        private void btnSaveCustomer_Click(object sender, EventArgs e)
+        private void btnSaveCustomer_Click_1(object sender, EventArgs e)
         {
             (bool output, string Msg) = ValidationForm();
             if (output == true)
-            { 
+            {
                 var repo = new CustomerRepository();
                 if (isEdit)
                 {
                     repo.Update(Cus);
                     MessageBox.Show("Customer update successfullly.", "Update", MessageBoxButtons.OK);
-                   
+
                 }
                 else
-                { 
+                {
                     repo.Insert(Cus);
                     MessageBox.Show("Customer save successfullly.", "Save", MessageBoxButtons.OK);
                 }
@@ -147,13 +147,17 @@ namespace BusniessManagementSystem
             return (found, msg);
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
+        private void btnClose_Click_1(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Are you sure you want to close?", "Exit", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
             if (result == DialogResult.OK)
             {
                 this.Dispose();
                 return;
+            }
+            else
+            {
+                txtCustomerID.Focus();
             }
         }
 
@@ -205,5 +209,7 @@ namespace BusniessManagementSystem
             }
 
         }
+
+        
     }
 }

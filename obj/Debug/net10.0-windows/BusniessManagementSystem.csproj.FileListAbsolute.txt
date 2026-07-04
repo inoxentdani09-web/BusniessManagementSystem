@@ -59,3 +59,7 @@ D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\Busni
 D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\BusniessManagementSystem.frmCustomers.resources
 D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\BusniessManagementSystem.ViewEmployee.resources
 D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\BusniessManagementSystem.ViewCustomer.resources
+D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\BusniessManagementSystem.sourcelink.json
+D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\BusniessManagementSystem.frmProduct.resources
+D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\BusniessManagementSystem.SearchProduct.resources
+D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\BusniessManagementSystem.ViewProduct.resources

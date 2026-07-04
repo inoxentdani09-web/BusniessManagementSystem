@@ -115,31 +115,28 @@ namespace BusniessManagementSystem
             }
             dgvSearchEmployee.DataSource = repo.SearchEmployee(emp);
         }
-        private void txtFirstName_TextChanged(object sender, EventArgs e)
+
+        private void txtFirstName_TextChanged_1(object sender, EventArgs e)
         {
             EmployeeSearch();
         }
-        private void txtLastName_TextChanged(object sender, EventArgs e)
+        private void txtLastName_TextChanged_1(object sender, EventArgs e)
+        {
+            EmployeeSearch();
+        }
+        private void txtPostalCode_TextChanged_1(object sender, EventArgs e)
         {
             EmployeeSearch();
         }
 
-        private void txtAddress_TextChanged(object sender, EventArgs e)
+        private void cmbReports_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             EmployeeSearch();
-
         }
 
-        private void txtPostalCode_TextChanged(object sender, EventArgs e)
+        private void txtAddress_TextChanged_1(object sender, EventArgs e)
         {
             EmployeeSearch();
-
-        }
-
-        private void cmbReports_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            EmployeeSearch();
-
         }
     }
 }

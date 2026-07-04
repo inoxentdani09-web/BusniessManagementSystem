@@ -217,7 +217,7 @@ namespace BusniessManagementSystem.EmployeeRepositories
             using (conn = new SqlConnection(Conn_String))
             {
                 conn.Open();
-                string query = "select EmployeeID, TitleOfCourtesy, FirstName, LastName, Address  FROM dbo.Employees";
+                string query = "select EmployeeID,LastName, FirstName,  TitleOfCourtesy, Address  FROM dbo.Employees";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
