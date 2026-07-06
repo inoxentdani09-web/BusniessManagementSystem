@@ -217,7 +217,7 @@ namespace BusniessManagementSystem.EmployeeRepositories
             using (conn = new SqlConnection(Conn_String))
             {
                 conn.Open();
-                string query = "select EmployeeID,LastName, FirstName,  TitleOfCourtesy, Address  FROM dbo.Employees";
+                string query = "Select 0 AS EmployeeID, 'Select Employee' AS EmployeeName Union All Select EmployeeID,FirstName + ' ' + LastName AS [EmployeeName] from dbo.Employees";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -271,11 +271,12 @@ namespace BusniessManagementSystem.EmployeeRepositories
                 da.SelectCommand = cmd;
                 DataTable dt = new DataTable();
                 da.Fill(dt);
+               
                 return dt;
             }
 
         }
 
-    
+       
     }
 }

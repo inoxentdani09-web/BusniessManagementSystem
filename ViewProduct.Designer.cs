@@ -95,6 +95,7 @@
             btnCancel.TabIndex = 40;
             btnCancel.Text = "     Ca&ncel";
             btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // label1
             // 
@@ -288,6 +289,7 @@
             Controls.Add(groupBox1);
             Name = "ViewProduct";
             Text = "ViewProduct";
+            Load += ViewProduct_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);

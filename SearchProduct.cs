@@ -5,6 +5,9 @@ namespace BusniessManagementSystem
     public partial class SearchProduct : Form
     {
         ProductRepository repo = new ProductRepository();
+
+        public int id { get; private set; }
+
         public SearchProduct()
         {
             InitializeComponent();
@@ -14,13 +17,13 @@ namespace BusniessManagementSystem
         {
             LoadComboCategory();
             LoadComboSupplier();
-            LoadProductRecords();
+            LoadProductRecords(id);
         }
         private void LoadComboCategory()
         {
             cmbCategory.ValueMember = "CategoryID";
             cmbCategory.DisplayMember = "CategoryName";
-            cmbCategory.DataSource = repo.LoadComboCategory();
+            cmbCategory.DataSource = new CategoryRepository().GetAll();
         }
         private void LoadComboSupplier()
         {
@@ -28,11 +31,11 @@ namespace BusniessManagementSystem
             cmbSupplier.DisplayMember = "SupplierName";
             cmbSupplier.DataSource = repo.LoadComboSupplier();
         }
-        private void LoadProductRecords()
+        private void LoadProductRecords(int id)
         {
             try
             {
-                dgvSearchProduct.DataSource = repo.GetAll().Tables[0];
+                dgvSearchProduct.DataSource = repo.GetAll(id).Tables[0];
             }
             catch (Exception ex)
             {
@@ -75,7 +78,15 @@ namespace BusniessManagementSystem
         }
         private void ProductView(int id)
         {
-            throw new NotImplementedException();
+            if (dgvSearchProduct == null)
+            {
+                MessageBox.Show("Please select first.");
+                return;
+            }
+            ViewProduct pro = new ViewProduct();
+            pro.ProductID = id;
+            pro.MdiParent = MdiParent;
+            pro.Show();
         }
 
         private void DeleteProduct(int id)
@@ -85,7 +96,7 @@ namespace BusniessManagementSystem
 
         private void SearchProduct_Activated(object sender, EventArgs e)
         {
-            LoadProductRecords();
+            LoadProductRecords(id);
         }
     }
 }

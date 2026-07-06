@@ -124,7 +124,7 @@ namespace BusniessManagementSystem
         {
             cmbCategory.ValueMember = "CategoryID";
             cmbCategory.DisplayMember = "CategoryName";
-            cmbCategory.DataSource = repo.LoadComboCategory();
+            cmbCategory.DataSource = new CategoryRepository().GetAll();
         }
         private void frmProduct_Load(object sender, EventArgs e)
         {

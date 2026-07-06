@@ -18,6 +18,7 @@ namespace BusniessManagementSystem
         SearchCustomer SearchCus;
         frmProduct product;
         SearchProduct SearchPro;
+        OrderForm orderfrm;
         public MainForm()
         {
             InitializeComponent();
@@ -103,6 +104,20 @@ namespace BusniessManagementSystem
             else
             {
                 SearchPro.Activate();
+            }
+        }
+
+        private void newOrderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (orderfrm == null || orderfrm.IsDisposed)
+            {
+                orderfrm = new OrderForm();
+                orderfrm.MdiParent = this;
+                orderfrm.Show();
+            }
+            else
+            {
+                orderfrm.Activate();
             }
         }
     }

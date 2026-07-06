@@ -22,7 +22,6 @@ namespace BusniessManagementSystem
                 return;
             }
 
-            // Assign to the field, do not redeclare a local variable
             this.Cus = repo.GetById(this.CustomerID);
             if (this.Cus == null)
             {
@@ -45,7 +44,15 @@ namespace BusniessManagementSystem
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Dispose();
+
+            DialogResult result = MessageBox.Show("Are you sure you want to close this window?", "Close",
+            MessageBoxButtons.OKCancel,
+            MessageBoxIcon.Question);
+
+            if (result == DialogResult.OK)
+            {
+                this.Close();
+            }
         }
     }
 }

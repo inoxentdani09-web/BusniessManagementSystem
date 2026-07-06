@@ -126,13 +126,13 @@ namespace BusniessManagementSystem.Repositories
 
             return pro;
         }
-        public DataSet GetAll()
+        public DataSet GetAll(int CateId)
         {
             DataSet ds = new DataSet();
             using (conn = new SqlConnection(Conn_String))
             {
                 conn.Open();
-                string query = "SELECT * from dbo.Products";
+                string query = $"SELECT * from dbo.Products where CategoryID = {CateId}";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -148,7 +148,7 @@ namespace BusniessManagementSystem.Repositories
             using (conn = new SqlConnection(Conn_String))
             {
                 conn.Open();
-                string query = "select SupplierID,ContactName AS [SupplierName] from dbo.Suppliers";
+                string query = "select  SupplierID,ContactName AS [SupplierName] from dbo.Suppliers";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -159,20 +159,6 @@ namespace BusniessManagementSystem.Repositories
             }
         }
 
-        public DataTable LoadComboCategory()
-        {
-            using (conn = new SqlConnection(Conn_String))
-            {
-                conn.Open();
-                string query = "select CategoryID,CategoryName AS [CategoryName] from dbo.Categories";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
-                {
-                    SqlDataAdapter da = new SqlDataAdapter(cmd);
-                    DataTable dt = new DataTable();
-                    da.Fill(dt);
-                    return dt;
-                }
-            }
-        }
+        
     }
 }

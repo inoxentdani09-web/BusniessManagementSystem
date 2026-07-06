@@ -146,7 +146,7 @@ namespace BusniessManagementSystem.Repositories
             using (conn = new SqlConnection(Connecting_String))
             {
                 conn.Open();
-                string query = "select CustomerID,CompanyName,ContactName,City,PostalCode from dbo.Customers";
+                string query = "select '' AS CustomerID,'Select Customer' AS CustomerName Union All Select CustomerID,ContactName from dbo.Customers";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -196,7 +196,7 @@ namespace BusniessManagementSystem.Repositories
                 SqlDataAdapter da = new SqlDataAdapter();
                 da.SelectCommand = cmd;
                 DataTable dt = new DataTable();
-                da.Fill(dt);
+                da.Fill(dt);        
                 return dt;
             }
         }

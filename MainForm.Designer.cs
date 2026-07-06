@@ -42,13 +42,16 @@
             addNewCategoryToolStripMenuItem = new ToolStripMenuItem();
             searchCategoryToolStripMenuItem = new ToolStripMenuItem();
             exitToolStripMenuItem = new ToolStripMenuItem();
+            purchaseToolStripMenuItem = new ToolStripMenuItem();
+            newOrderToolStripMenuItem = new ToolStripMenuItem();
+            searchOrderToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { employeesToolStripMenuItem, customersToolStripMenuItem, productsToolStripMenuItem, categoriesToolStripMenuItem, exitToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { employeesToolStripMenuItem, customersToolStripMenuItem, productsToolStripMenuItem, categoriesToolStripMenuItem, exitToolStripMenuItem, purchaseToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Padding = new Padding(6, 3, 0, 3);
@@ -108,14 +111,14 @@
             // addNewProductToolStripMenuItem
             // 
             addNewProductToolStripMenuItem.Name = "addNewProductToolStripMenuItem";
-            addNewProductToolStripMenuItem.Size = new Size(270, 34);
+            addNewProductToolStripMenuItem.Size = new Size(255, 34);
             addNewProductToolStripMenuItem.Text = "Add New Product";
             addNewProductToolStripMenuItem.Click += addNewProductToolStripMenuItem_Click;
             // 
             // searchProductToolStripMenuItem
             // 
             searchProductToolStripMenuItem.Name = "searchProductToolStripMenuItem";
-            searchProductToolStripMenuItem.Size = new Size(270, 34);
+            searchProductToolStripMenuItem.Size = new Size(255, 34);
             searchProductToolStripMenuItem.Text = "Search Product";
             searchProductToolStripMenuItem.Click += searchProductToolStripMenuItem_Click;
             // 
@@ -143,6 +146,26 @@
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             exitToolStripMenuItem.Size = new Size(55, 29);
             exitToolStripMenuItem.Text = "E&xit";
+            // 
+            // purchaseToolStripMenuItem
+            // 
+            purchaseToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { newOrderToolStripMenuItem, searchOrderToolStripMenuItem });
+            purchaseToolStripMenuItem.Name = "purchaseToolStripMenuItem";
+            purchaseToolStripMenuItem.Size = new Size(98, 29);
+            purchaseToolStripMenuItem.Text = "Purchase";
+            // 
+            // newOrderToolStripMenuItem
+            // 
+            newOrderToolStripMenuItem.Name = "newOrderToolStripMenuItem";
+            newOrderToolStripMenuItem.Size = new Size(270, 34);
+            newOrderToolStripMenuItem.Text = "New Order";
+            newOrderToolStripMenuItem.Click += newOrderToolStripMenuItem_Click;
+            // 
+            // searchOrderToolStripMenuItem
+            // 
+            searchOrderToolStripMenuItem.Name = "searchOrderToolStripMenuItem";
+            searchOrderToolStripMenuItem.Size = new Size(270, 34);
+            searchOrderToolStripMenuItem.Text = "Search Order";
             // 
             // MainForm
             // 
@@ -182,6 +205,9 @@
         private ToolStripMenuItem addNewCategoryToolStripMenuItem;
         private ToolStripMenuItem searchCategoryToolStripMenuItem;
         private ToolStripMenuItem exitToolStripMenuItem;
+        private ToolStripMenuItem purchaseToolStripMenuItem;
+        private ToolStripMenuItem newOrderToolStripMenuItem;
+        private ToolStripMenuItem searchOrderToolStripMenuItem;
     }
 }
 
