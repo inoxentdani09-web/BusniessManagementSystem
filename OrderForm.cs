@@ -77,6 +77,11 @@ namespace BusniessManagementSystem
             {
                 DataRow row = this.dtOrderDetails.NewRow();
                 DataRowView dr = (DataRowView)this.cmbProduct.SelectedItem;
+                if (dr == null)
+                {
+                    MessageBox.Show("Please select a product.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
                 row["ProductID"] = dr["ProductID"];
                 row["ProductName"] = dr["ProductName"];
                 row["UnitPrice"] = dr["UnitPrice"];
@@ -120,6 +125,11 @@ namespace BusniessManagementSystem
         private void DeleteOrderDetails(int rowIndex)
         {
             dtOrderDetails.Rows.RemoveAt(rowIndex);
+        }
+
+        private void cmbProduct_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
