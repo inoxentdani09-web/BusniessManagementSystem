@@ -127,9 +127,6 @@ namespace BusniessManagementSystem
             dtOrderDetails.Rows.RemoveAt(rowIndex);
         }
 
-        private void cmbProduct_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
