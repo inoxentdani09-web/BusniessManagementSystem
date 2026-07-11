@@ -250,8 +250,6 @@ namespace BusniessManagementSystem
                     MyEmp.Photo = File.ReadAllBytes(imagePath);
                     MyEmp.PhotoPath = (imagePath);
                 }
-
-                MessageBox.Show(imagePath);
             }
         }
         private void btnRemovepic_Click_1(object sender, EventArgs e)

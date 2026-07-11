@@ -64,3 +64,4 @@ D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\Busni
 D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\BusniessManagementSystem.SearchProduct.resources
 D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\BusniessManagementSystem.ViewProduct.resources
 D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\BusniessManagementSystem.OrderForm.resources
+D:\dev\C-Sharp\WinForms\BusniessManagementSystem\obj\Debug\net10.0-windows\BusniessManagementSystem.frmCategory.resources
