@@ -1,5 +1,6 @@
 ﻿using BusniessManagementSystem.EmployeeRepositories;
 using BusniessManagementSystem.Repositories;
+using BusniessManagementSystem.Modules;
 using System.Data;
 
 namespace BusniessManagementSystem
@@ -127,6 +128,24 @@ namespace BusniessManagementSystem
             dtOrderDetails.Rows.RemoveAt(rowIndex);
         }
 
-       
+        private void SaveOrder()
+        {
+            Order order = new Order();
+            order.CustomerId = cmbCustomer.SelectedValue;
+            order.EmployeeId = cmbEmployee.SelectedValue;
+            order.OrderDate = dtOrderDate.SelectedValue;
+
+            OrdersRepository repo = new OrdersRepository();
+            int id = repo.InsertOrder(order);
+
+            // loop through the data grid.
+            // for every row in the data grid create an order details object
+            // call the repo.InsertOrderDetails function for every row.
+            // than clear the form
+            // show message box that order created successfully.
+
+        }
+
+
     }
 }
