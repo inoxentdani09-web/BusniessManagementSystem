@@ -19,6 +19,7 @@ namespace BusniessManagementSystem
         frmProduct product;
         SearchProduct SearchPro;
         OrderForm orderfrm;
+        frmCategory cate;
         public MainForm()
         {
             InitializeComponent();
@@ -118,6 +119,20 @@ namespace BusniessManagementSystem
             else
             {
                 orderfrm.Activate();
+            }
+        }
+
+        private void addNewCategoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (cate == null || cate.IsDisposed)
+            {
+                cate = new frmCategory();
+                cate.MdiParent = this;
+                cate.Show();
+            }
+            else
+            {
+                cate.Activate();
             }
         }
     }

@@ -132,13 +132,14 @@
             // addNewCategoryToolStripMenuItem
             // 
             addNewCategoryToolStripMenuItem.Name = "addNewCategoryToolStripMenuItem";
-            addNewCategoryToolStripMenuItem.Size = new Size(265, 34);
+            addNewCategoryToolStripMenuItem.Size = new Size(270, 34);
             addNewCategoryToolStripMenuItem.Text = "Add New Category";
+            addNewCategoryToolStripMenuItem.Click += addNewCategoryToolStripMenuItem_Click;
             // 
             // searchCategoryToolStripMenuItem
             // 
             searchCategoryToolStripMenuItem.Name = "searchCategoryToolStripMenuItem";
-            searchCategoryToolStripMenuItem.Size = new Size(265, 34);
+            searchCategoryToolStripMenuItem.Size = new Size(270, 34);
             searchCategoryToolStripMenuItem.Text = "Search Category";
             // 
             // exitToolStripMenuItem
@@ -157,14 +158,14 @@
             // newOrderToolStripMenuItem
             // 
             newOrderToolStripMenuItem.Name = "newOrderToolStripMenuItem";
-            newOrderToolStripMenuItem.Size = new Size(270, 34);
+            newOrderToolStripMenuItem.Size = new Size(217, 34);
             newOrderToolStripMenuItem.Text = "New Order";
             newOrderToolStripMenuItem.Click += newOrderToolStripMenuItem_Click;
             // 
             // searchOrderToolStripMenuItem
             // 
             searchOrderToolStripMenuItem.Name = "searchOrderToolStripMenuItem";
-            searchOrderToolStripMenuItem.Size = new Size(270, 34);
+            searchOrderToolStripMenuItem.Size = new Size(217, 34);
             searchOrderToolStripMenuItem.Text = "Search Order";
             // 
             // MainForm
