@@ -4,17 +4,17 @@ using System.Data;
 
 namespace BusniessManagementSystem.Repositories
 {
-    public  class OrdersRepository
+    public class OrdersRepository
     {
         string Connecting_String = "Server=(localdb)\\MSSQLLocalDB;Database=Northwind;Trusted_Connection=True;";
         SqlConnection conn = null!;
 
         public int InsertOrder(Order order)
         {
-            using(conn = new SqlConnection(Connecting_String))
+            using (conn = new SqlConnection(Connecting_String))
             {
                 conn.Open();
-                using(SqlCommand cmd = new SqlCommand("sp_Insert_Orders", conn))
+                using (SqlCommand cmd = new SqlCommand("sp_Insert_Orders", conn))
                 {
 
                     cmd.CommandType = CommandType.StoredProcedure;
@@ -27,7 +27,7 @@ namespace BusniessManagementSystem.Repositories
                 }
             }
         }
-        public int InsertOrderDetails(OrderDetails Details)
+        public bool InsertOrderDetails(OrderDetails Details)
         {
             using (conn = new SqlConnection(Connecting_String))
             {
@@ -36,13 +36,14 @@ namespace BusniessManagementSystem.Repositories
                 {
 
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@ProductID", Details.ProductID);
+                    cmd.Parameters.AddWithValue("@OrderId", Details.OrderId);
+                    cmd.Parameters.AddWithValue("@ProductID", Details.ProductId);
                     cmd.Parameters.AddWithValue("@UnitPrice", Details.UnitPrice);
                     cmd.Parameters.AddWithValue("@Qty", Details.Qty);
                     cmd.Parameters.AddWithValue("@Discount", Details.Discount);
 
-                    int orderId = cmd.ExecuteNonQuery();
-                    return orderId;
+                    cmd.ExecuteNonQuery();
+                    return true;
                 }
             }
         }
