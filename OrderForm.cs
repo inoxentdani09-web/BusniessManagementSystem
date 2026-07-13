@@ -24,7 +24,7 @@ namespace BusniessManagementSystem
 
         private void CreatOrderTable()
         {
-            dtOrderDetails.Columns.Add("ProductID");
+            dtOrderDetails.Columns.Add("ProductId");
             dtOrderDetails.Columns.Add("ProductName");
             dtOrderDetails.Columns.Add("UnitPrice");
             dtOrderDetails.Columns.Add("Quantity");
@@ -130,22 +130,44 @@ namespace BusniessManagementSystem
 
         private void SaveOrder()
         {
+            #region 
+            
             Order order = new Order();
-            order.CustomerId = cmbCustomer.SelectedValue;
-            order.EmployeeId = cmbEmployee.SelectedValue;
-            order.OrderDate = dtOrderDate.SelectedValue;
+            order.CustomerId = cmbCustomer.SelectedValue.ToString();
+            order.EmployeeId = Convert.ToInt32(cmbEmployee.SelectedValue);
+            order.OrderDate = dtOrderDate.Value;
 
             OrdersRepository repo = new OrdersRepository();
-            int id = repo.InsertOrder(order);
-
+            int orderId = repo.InsertOrder(order);
+            
+            for(int i = 0; i < dtOrderDetails.Rows.Count; i++)
+            {
+                DataRow dr = dtOrderDetails.Rows[i];
+                var od = new OrderDetails();
+                od.OrderId = orderId;
+                od.ProductId = Convert.ToInt32(dr["ProductId"]);
+                od.UnitPrice = Convert.ToDouble(dr["UnitPrice"]);
+                od.Qty = Convert.ToInt32(dr["Quantity"]);
+                od.Discount = Convert.ToSingle(dr["Discount"]) / 100;
+                MessageBox.Show(dr["Discount"].ToString());
+                var output = repo.InsertOrderDetails(od);
+            }
             // loop through the data grid.
             // for every row in the data grid create an order details object
             // call the repo.InsertOrderDetails function for every row.
             // than clear the form
             // show message box that order created successfully.
-
+            #endregion
         }
 
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Order Save","Save",MessageBoxButtons.OKCancel,MessageBoxIcon.Information);
+            if(result == DialogResult.OK)
+            {
+                SaveOrder();
 
+            }
+        }
     }
 }

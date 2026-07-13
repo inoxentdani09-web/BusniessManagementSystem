@@ -148,6 +148,7 @@
             btnSave.TabIndex = 3;
             btnSave.Text = "Save Order";
             btnSave.UseVisualStyleBackColor = false;
+            btnSave.Click += btnSave_Click;
             // 
             // groupBox3
             // 
@@ -245,7 +246,6 @@
             cmbProduct.Name = "cmbProduct";
             cmbProduct.Size = new Size(313, 33);
             cmbProduct.TabIndex = 5;
-            
             // 
             // cmbCategory
             // 

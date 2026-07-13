@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\frmcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:frmcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\frmcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:frmcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\repositories\\ordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:repositories\\ordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|solutionrelative:orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A236111F-8DCA-AFB6-65C6-8F30FCDB9B7F}|BusniessManagementSystem.csproj|d:\\dev\\c-sharp\\winforms\\busniessmanagementsystem\\frmemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +58,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmEmployee.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmEmployee.cs",
-              "RelativeDocumentMoniker": "frmEmployee.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmEmployee.cs",
-              "RelativeToolTip": "frmEmployee.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAkwOAAAAALAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T12:22:07.42Z",
+              "WhenOpened": "2026-07-13T10:48:55.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmCategory.cs",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCategory.cs",
-              "RelativeDocumentMoniker": "frmCategory.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCategory.cs",
-              "RelativeToolTip": "frmCategory.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAkwHEAAAAfAAAAAAAAAA==",
+              "Title": "OrderForm.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\OrderForm.cs",
+              "RelativeDocumentMoniker": "OrderForm.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\OrderForm.cs",
+              "RelativeToolTip": "OrderForm.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAIwJcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T12:21:25.282Z",
+              "WhenOpened": "2026-07-11T16:31:05.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersRepository.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\OrdersRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\OrdersRepository.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\OrdersRepository.cs",
+              "RelativeToolTip": "Repositories\\OrdersRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T16:25:17.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CustomerRepository.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T16:44:39.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmCategory.cs [Design]",
-              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCategory.cs",
-              "RelativeDocumentMoniker": "frmCategory.cs",
-              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmCategory.cs [Design]",
-              "RelativeToolTip": "frmCategory.cs [Design]",
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Models\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetails.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Models\\OrderDetails.cs",
+              "RelativeToolTip": "Models\\OrderDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T09:35:04.425Z",
+              "WhenOpened": "2026-07-11T18:48:53.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAASwNsAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T16:53:33.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderForm.cs [Design]",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\OrderForm.cs",
+              "RelativeDocumentMoniker": "OrderForm.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\OrderForm.cs [Design]",
+              "RelativeToolTip": "OrderForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T16:33:43.35Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmEmployee.cs",
+              "DocumentMoniker": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmEmployee.cs",
+              "RelativeDocumentMoniker": "frmEmployee.cs",
+              "ToolTip": "D:\\dev\\C-Sharp\\WinForms\\BusniessManagementSystem\\frmEmployee.cs",
+              "RelativeToolTip": "frmEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T12:22:07.42Z"
             }
           ]
         }

@@ -6,6 +6,6 @@ namespace BusniessManagementSystem.Modules
         public int ProductId { get; set; }
         public double UnitPrice { get; set; }
         public int Qty { get; set; }
-        public double Discount { get; set; }
+        public Single Discount { get; set; }
     }
 }
